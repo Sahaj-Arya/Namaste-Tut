@@ -1,0 +1,88 @@
+/* Header CSS */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-width: 1;
+    border-color: aliceblue;
+    padding: 0 10;
+    border-radius: 10;
+}
+
+.logo {
+    width: 60px;
+    aspect-ratio: 1.1/1;
+    border-radius: 100px;
+}
+
+.nav-items {}
+
+.nav-items>ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items>ul>li {
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Body CSS */
+
+.body {}
+
+.searchBox {
+    display: flex;
+    padding: 10 0;
+    width: 100%;
+}
+
+.searchBox>input {
+    background: #000;
+    border: 1 solid aliceblue;
+    border-radius: 5;
+    margin-right: 10;
+    padding: 5;
+    width: 100%;
+    height: 30;
+}
+
+.rest-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+/* Rest Card */
+.rest-card {
+    height: 350px;
+    /* width: 250px; */
+    aspect-ratio: 1/1.2;
+    border: 1px solid aliceblue;
+    padding: 10;
+    margin-right: 10;
+    margin-bottom: 10;
+    border-radius: 10;
+    overflow: hidden;
+}
+
+.rest-card:hover {
+    box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.3), -10px -10px 20px rgba(255, 255, 255, 0.1);
+}
+
+.rest-image {
+    width: 100%;
+    aspect-ratio: 1/0.7;
+    border-radius: 5;
+}
+
+.rest-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20;
+    padding: 10 0 0 0;
+}
